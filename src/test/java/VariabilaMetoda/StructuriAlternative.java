@@ -11,10 +11,11 @@ public class StructuriAlternative {
 //        metodaVfNr(7);
 //        metodaVfNr(4);
 //        metodaVfNr(5);
-        metodaVfNrParPozitiv(0);
-        metodaVfNrParPozitiv(-9);
-        metodaVfNrParPozitiv(4);
-        metodaVfNrParPozitiv(-8);
+//        metodaVfNrParPozitiv(0);
+//        metodaVfNrParPozitiv(-9);
+//        metodaVfNrParPozitiv(4);
+//        metodaVfNrParPozitiv(-8);
+        zileSaptamana(3);
 
     }
 
@@ -37,19 +38,44 @@ public class StructuriAlternative {
     public void metodaVfNrParPozitiv(int a) {
         if (a > 0) {
             if (a % 2 == 0) {
-                System.out.println("Nr " + a + " este par pozitiv");
+                System.out.println("Nr " + a +" este par pozitiv");
             } else {
-                System.out.println("Nr " + a + " este impar pozitiv");
+                System.out.println("Nr " + a +" este impar pozitiv");
             }
         }
         else if (a < 0) {
             if (a % 2 == 0) {
-                System.out.println("Nr " + a + " este par negativ");
+                System.out.println("Nr " + a +" este par negativ");
             } else {
-                System.out.println("Nr " + a + " este impar negativ");
+                System.out.println("Nr " + a +" este impar negativ");
             }
         } else if(a==0){
             System.out.println("Nr " + a +" este egal cu 0");
+        }
+    }
+
+
+    //Exemplu switch case
+    //'switch' case are VALOARE, in schimb 'if' are CONDITIE
+    //de preferat este mai simplu sa folosesc 'switch' case atunci cand sunt anumite valori, de exemplu cand interactionez cu Meniuri si Submeniuri!!!
+    //pe site-ul nostru DemoQA sunt 6 Meniuri
+
+    public void zileSaptamana(Integer zi){
+        switch (zi){
+            case 1:
+                System.out.println("Astazi este Luni");
+                break;
+            case 2:
+                System.out.println("Astazi este Marti");
+                break;
+            case 3:
+                System.out.println("Astazi este Miercuri");
+                break;
+            case 4:
+                System.out.println("Astazi este Joi");
+                break;
+            default:
+                System.out.println("Nu mai sunt zile!");
         }
     }
 }
