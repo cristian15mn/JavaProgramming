@@ -15,7 +15,8 @@ public class StructuriAlternative {
 //        metodaVfNrParPozitiv(-9);
 //        metodaVfNrParPozitiv(4);
 //        metodaVfNrParPozitiv(-8);
-        zileSaptamana(3);
+       // zileSaptamana(3);
+        test();
 
     }
 
@@ -76,6 +77,23 @@ public class StructuriAlternative {
                 break;
             default:
                 System.out.println("Nu mai sunt zile!");
+        }
+    }
+
+    public void test(){
+        int nr=2;
+        switch (nr){
+            case 1:
+                System.out.println("One");
+                break;
+            case 2:
+                System.out.println("Two");
+                break;
+            case 3:
+                System.out.println("Three");
+                break;
+            default:
+                System.out.println("Invalid number");
         }
     }
 }
