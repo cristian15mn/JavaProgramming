@@ -10,6 +10,9 @@ public class OOPTest {
 
 //       student1.infoStudent();
 //        student1.mananca();
+        student1.infoPersoana();
+
+        Persoana cristi=new Persoana();
 
         Angajat angajat1=new Angajat("Pop", "Mihai","30", "Mango","4 ani", "10");
         angajat1.infoAngajat();
@@ -18,6 +21,7 @@ public class OOPTest {
         angajat1.marire();
         angajat1.marire(10);
         angajat1.marire("Senior");
+
 
     }
 }

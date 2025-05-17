@@ -15,7 +15,7 @@ public class Angajat extends Persoana implements AngajatInterfata{
         this.zileCOncediu = zileCOncediu;
     }
 
-    public void infoAngajat() {
+    protected void infoAngajat() {
         infoPersoana();
         System.out.println("Firma unde lucreaza: " + firma);
         System.out.println("Experienta pe care o are: " + experienta);

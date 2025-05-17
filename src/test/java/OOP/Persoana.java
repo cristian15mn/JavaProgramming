@@ -38,6 +38,13 @@ public class Persoana {
     //Pt INterfete cuvantul cuvantul cheie 'implements' ca sa ne folosim de ele
 
 
+    //MODIFICATORI DE ACCESS
+    //public = codul se poate accesa de oriunde si de orice clasa
+    //private = codul se poate accesa doar din clasa de unde s-a scris codul
+    //protected = codul se poate accesa doar din pachetul in care s-a scris codul, dar si de catre sublase (conceptul OOP mostenire
+    //defaul = codul se poate accesa doar din pachetul din care s-a scris codul, este defaul, daca nu se specifica un alt modificator de acces
+
+
     private String nume;
     private String prenume;
     private String varsta;
@@ -48,7 +55,7 @@ public class Persoana {
         this.varsta = varsta;
     }
 
-    public void infoPersoana(){
+    protected void infoPersoana(){
         System.out.println("Numele este: " + nume);
         System.out.println("Prenumele este: " + prenume);
         System.out.println("Varsta este: " + varsta);
