@@ -1,10 +1,12 @@
 package OOP;
 
-public class Angajat extends Persoana {
+public class Angajat extends Persoana implements AngajatInterfata{
 
     private String firma;
     private String experienta;
     private String zileCOncediu;
+
+
 
     public Angajat(String nume, String prenume, String varsta, String firma, String experienta, String zileCOncediu) {
         super(nume, prenume, varsta);
@@ -64,5 +66,25 @@ public class Angajat extends Persoana {
 
     public void setZileCOncediu(String zileCOncediu) {
         this.zileCOncediu = zileCOncediu;
+    }
+
+    @Override
+    public void mergeLaMunca() {
+        System.out.println("Angajatul merge la munca");
+    }
+
+    @Override
+    public void primesteSalariu() {
+        System.out.println("Angajatul primeste salariu");
+    }
+
+    @Override
+    public void mergeInPauza() {
+        System.out.println("Angajatul merge in pauza");
+    }
+
+    @Override
+    public void prezintaDemisie() {
+        System.out.println("Angajatul nu pleaca din firma");
     }
 }

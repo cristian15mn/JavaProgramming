@@ -6,7 +6,8 @@ public class OOPTest {
 
     @Test
     public void metodaTest(){
-//       Student student1 =new Student("Negrea", "Cristian", "32", "ETTI", "4", true);
+       Student student1 =new Student("Negrea", "Cristian", "32", "ETTI", "4", true);
+
 //       student1.infoStudent();
 //        student1.mananca();
 
