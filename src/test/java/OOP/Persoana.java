@@ -44,6 +44,8 @@ public class Persoana {
     //protected = codul se poate accesa doar din pachetul in care s-a scris codul, dar si de catre sublase (conceptul OOP mostenire
     //defaul = codul se poate accesa doar din pachetul din care s-a scris codul, este defaul, daca nu se specifica un alt modificator de acces
 
+    //NON ACCESS modificatori
+
 
     private String nume;
     private String prenume;

@@ -12,7 +12,7 @@ public class OOPTest {
 //        student1.mananca();
         student1.infoPersoana();
 
-        Persoana cristi=new Persoana();
+        //Persoana cristi=new Persoana();
 
         Angajat angajat1=new Angajat("Pop", "Mihai","30", "Mango","4 ani", "10");
         angajat1.infoAngajat();
